@@ -136,13 +136,13 @@ pm2 start ecosystem.config.js
 
 | Variable | Required | Default / Example | Description |
 | :--- | :---: | :--- | :--- |
-| `MOVIE_API_URL` | Yes | `http://localhost:3004/v1/api` | Rust Axum Movie backend endpoint (server-side) |
-| `NEXT_PUBLIC_MOVIE_API_URL` | Yes | `http://localhost:3004/v1/api` | Rust Axum Movie backend endpoint (client-side) |
-| `ANIME_API_URL` | Yes | `https://anime-api.prasunk.my.id/otakudesu` | Anime scraper backend API endpoint |
-| `NEXT_PUBLIC_ANIME_API_URL` | Yes | `https://anime-api.prasunk.my.id/otakudesu` | Anime scraper client-side endpoint |
-| `MANGA_API_URL` | Yes | `https://manga-api.prasunk.my.id` | Manga/Comic scraper backend API endpoint |
-| `NEXT_PUBLIC_MANGA_API_URL` | Yes | `https://manga-api.prasunk.my.id` | Manga scraper client-side endpoint |
-| `DRAMA_API_URL` | Optional | `http://localhost:8080` | Short Drama Rust Axum backend |
+| `MOVIE_API_URL` | Yes | `your_movie_api_url` | Rust Axum Movie backend endpoint (server-side) |
+| `NEXT_PUBLIC_MOVIE_API_URL` | Yes | `your_movie_api_url` | Rust Axum Movie backend endpoint (client-side) |
+| `ANIME_API_URL` | Yes | `your_anime_api_url` | Anime scraper backend API endpoint |
+| `NEXT_PUBLIC_ANIME_API_URL` | Yes | `your_anime_api_url` | Anime scraper client-side endpoint |
+| `MANGA_API_URL` | Yes | `your_manga_api_url` | Manga/Comic scraper backend API endpoint |
+| `NEXT_PUBLIC_MANGA_API_URL` | Yes | `your_manga_api_url` | Manga scraper client-side endpoint |
+| `DRAMA_API_URL` | Optional | `your_drama_api_url` | Short Drama Rust Axum backend |
 | `NEXT_PUBLIC_SITE_URL` | Yes | `http://localhost:3000` | Canonical site base URL for SEO and sitemaps |
 | `SAWERIA_STREAM_KEY` | Optional | `your_saweria_stream_key` | Stream key for Saweria QRIS overlay |
 | `CLOUDFLARE_TURNSTILE_SITE_KEY` | Optional | `your_turnstile_site_key` | Cloudflare Turnstile Site Key (server-only) |
